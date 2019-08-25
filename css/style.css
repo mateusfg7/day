@@ -1,4 +1,6 @@
-body {}
+body {
+    font-family: Arial, Helvetica, sans-serif;
+}
 
 #corpo {
     text-align: center;
@@ -21,3 +23,24 @@ img {
 
     border-radius: 100%;
 }
+
+.morningBody{
+    background: url('../img/wallpaper/morning_wallpaper.jpg') no-repeat fixed center;
+}
+.lunchBody{
+    background: url('../img/wallpaper/lunch_wallpaper.jpg') no-repeat fixed center;
+}
+.eveningBody{
+    background: url('../img/wallpaper/evening_wallpaper.jpg') no-repeat fixed center;
+}
+.sunsetBody{
+    background: url('../img/wallpaper/sunset_wallpaper.jpg') no-repeat fixed center;
+}
+.nightBody{
+    background: url('../img/wallpaper/night_wallpaper.jpg') no-repeat fixed center;
+}
+.dawnBody{
+    background: url('../img/wallpaper/dawn_wallpaper.jpg') no-repeat fixed center;
+}
+
+
