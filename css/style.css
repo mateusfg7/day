@@ -2,9 +2,22 @@ body {
     font-family: Arial, Helvetica, sans-serif;
 }
 
+img {
+    width: 200px;
+    height: 200px;
+    margin: 10px;
+
+    border-radius: 100%;
+}
+
+h1 {
+    font-size: 20pt;
+}
+
+
 #corpo {
     text-align: center;
-    max-width: 500px;
+    max-width: 400px;
     margin: 50px auto;
 }
 
@@ -12,18 +25,13 @@ body {
     padding: 10px;
     margin: 10px auto 10px auto;
 
-    background: #fff;
     box-shadow: 0px 0px 6px rgba(0, 0, 0, .5);
     border-radius: 10px;
 }
 
-img {
-    width: 200px;
-    height: 200px;
 
-    border-radius: 100%;
-}
 
+/*
 .morningBody{
     background: url('../img/wallpaper/morning_wallpaper.jpg') no-repeat fixed center;
 }
@@ -41,6 +49,48 @@ img {
 }
 .dawnBody{
     background: url('../img/wallpaper/dawn_wallpaper.jpg') no-repeat fixed center;
+}
+*/
+
+.morningBody{
+    background: rgb(248, 248, 248);
+    color: rgb(50, 50, 50);
+}
+.lunchBody{
+    background: rgb(255, 229, 173);
+}
+.eveningBody{
+    background: rgb(250, 210, 123);
+}
+.sunsetBody{
+    background: rgb(253, 105, 47);
+}
+.nightBody{
+    background: #0e151f;
+    color: #a2a7a0;
+}
+.dawnBody{
+    background: #232e30;
+    color: #fcf3ee;
+}
+
+.morningArea{
+    background: rgb(255, 255, 255);
+}
+.lunchArea{
+    background: rgb(252, 237, 206);
+}
+.eveningArea{
+    background: rgb(250, 219, 154);
+}
+.sunsetArea{
+    background: rgb(253, 140, 47);
+}
+.nightArea{
+    background: #080b10;
+}
+.dawnArea{
+    background: #0f282c;
 }
 
 

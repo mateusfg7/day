@@ -1,10 +1,12 @@
 const data = new Date;
 //const hora = data.getHours();
-const hora = 1;
+const hora = 5;
 
 const condition = hora === 1 ? `é ${hora} hora`:`são ${hora} horas`;
 
 const body = $('body');
+const area = $('#area');
+console.log(area);
 const saudacao = $('#salutation');
 const hour = $('#hour');
 const image = $('#image');
@@ -15,6 +17,7 @@ if (hora >= 6 && hora < 11) {
     hour.html(`Agora são ${hora} horas`)
 
     body.addClass('morningBody');
+    area.addClass('morningArea');
 
     image.attr('src', 'img/icon/morning_icon.jpg');
     image.attr('alt', 'Morning Icon');
@@ -23,6 +26,7 @@ if (hora >= 6 && hora < 11) {
     hour.html(`Agora são ${hora} horas`)
     
     body.addClass('lunchBody');
+    area.addClass('lunchArea');
 
     image.attr('src', 'img/icon/lunch_icon.jpg');
     image.attr('alt', 'Lunch Icon');
@@ -31,6 +35,7 @@ if (hora >= 6 && hora < 11) {
     hour.html(`Agora são ${hora} horas`)
 
     body.addClass('eveningBody');
+    area.addClass('eveningArea');
 
     image.attr('src', 'img/icon/evening_icon.jpg');
     image.attr('alt', 'Evening Icon');
@@ -39,6 +44,7 @@ if (hora >= 6 && hora < 11) {
     hour.html(`Agora são ${hora} horas`)
     
     body.addClass('sunsetBody');
+    area.addClass('sunsetArea');
 
     image.attr('src', 'img/icon/sunset_icon.jpg');
     image.attr('alt', 'Sunset Icon');
@@ -47,6 +53,7 @@ if (hora >= 6 && hora < 11) {
     hour.html(`Agora ${condition}`);
 
     body.addClass('nightBody');
+    area.addClass('nightArea');
 
     image.attr('src', 'img/icon/night_icon.jpg');
     image.attr('alt', 'Night Icon');
@@ -55,6 +62,7 @@ if (hora >= 6 && hora < 11) {
     hour.html(`Agora são ${hora} horas`)
 
     body.addClass('dawnBody');
+    area.addClass('dawnArea');
 
     image.attr('src', 'img/icon/dawn_icon.jpg');
     image.attr('alt', 'Daw Icon');
